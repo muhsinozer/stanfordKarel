@@ -1,0 +1,39 @@
+function main(){
+   repeat(2){
+      firstStep();
+   inRightCorner();
+   secondStep();
+   inLeftCorner();
+      }
+      firstStep();
+}
+function inRightCorner(){
+   turnLeft();
+   move();
+   turnLeft();
+   }
+
+//stanford karel 5x5 satranç tahtası çizimi
+
+function inLeftCorner(){
+      turnRight();
+   move();
+   turnRight();
+      }
+function firstStep(){
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+}
+function secondStep(){
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   }
